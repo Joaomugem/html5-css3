@@ -11,8 +11,21 @@
 
         <p>
             <label for="inl">numero 1:</label>
-            <input type="number" name="ni" id="ini" min="0" max="50" required>
+            <input type="number" name="ni" id="ini" min="0" max="50" required oninput="isoma.innerHTML =Number(inl.value) + Number(in2.value)" >
             
+
+        </p>
+            <label for="in2">numero 2:</label>
+            <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number (inl.value) + Number(in2.value)">
+        <p>
+
+            <p>
+                <label for="isoma">soma</label>
+                <output name="soma" id="isoma">0</output>
+
+
+            </p>
+
         </p>
 
         <P>
