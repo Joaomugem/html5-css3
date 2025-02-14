@@ -10,3 +10,27 @@
     font-size: 1em;
     
   }
+
+  header{
+    background-color: lightslategray;
+
+  }
+
+  header >h1{
+    text-align: center;
+  }
+
+  menu ul {
+   list-style-type: none;
+   background-color: gray;
+   color: white;
+   display: inline-block;
+   padding: 10px;
+  }
+
+  article{
+    width: 620px;
+    display: block;
+    margin: auto;
+  }
+ 
