@@ -9,4 +9,4 @@
 <br>
 <a href="ex0027/form3.html">form3</a>
 
-<a href="ex0028/mq002/index.html">form3</a>
+<a href="ex0028/mq002.html">mq002</a>
