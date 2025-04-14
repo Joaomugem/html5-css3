@@ -27,6 +27,7 @@ main{
     background-color: rgb(255, 255, 255);
     width: 90vw;
     margin: auto;
+    margin-top: 20px;
     border-radius: 10px;
     padding: 10px;
 }
@@ -34,7 +35,21 @@ main{
 h1{
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 2em ;
     text-shadow: 2px 1px 2px black;
 }
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#phone  {display: block;}
+img#tablet {display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
+img#print {display: none;}
+
+
+
 
