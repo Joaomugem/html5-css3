@@ -10,14 +10,14 @@
 <body>
    <header>
         <h1>SITE SOBRE O ITOSHI RIN </h1>
-        <span id="isa"  class="material-symbols-outlined">menu</span>
-     <menu>
+        <span id="isa"  class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+     <menu id="to">
         <ul>
-            <li><a href=""> habilidades:  </a></li>
-            <li><a href=""> Hobies:  </a></li>
-            <li><a href=""> EGO:  </a></li>
-            <li><a href=""> Historia: </a></li>
-            <li><a href=""> Spin-Off: </a></li>
+            <li><a href="#"> habilidades:  </a></li>
+            <li><a href="#"> Hobies:  </a></li>
+            <li><a href="#"> EGO:  </a></li>
+            <li><a href="#"> Historia: </a></li>
+            <li><a href="#"> Spin-Off: </a></li>
         </ul>
     </menu>
    </header>
@@ -91,6 +91,23 @@
 
         </article>
     </main>
-    
+    <script>
+        function clickMenu(){
+           if (to.style.display == 'block')
+           
+           {
+
+            to.style.display = 'none'
+           }
+
+
+            else{
+
+            to.style.display = 'block'
+
+           }
+              
+        }
+    </script>
 </body>
 </html>
