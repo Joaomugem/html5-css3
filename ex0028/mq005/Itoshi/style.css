@@ -89,11 +89,13 @@ main h3 {
 
 }
 main {
-    padding: 30px;
+    width: 90vw;
     border-radius: 10px;
     border: solid black;
     background-color: aliceblue;
-    margin: 30px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 10px;
 }
 p{
    text-align: center;
